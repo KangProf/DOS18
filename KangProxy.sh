@@ -7,9 +7,9 @@ clear
 function banner(){
 		echo -e "\t${p}____________________________________________________"
 		echo -e "\t${h}              TOOLS CHECK IP PROXY"
-		echo -e "\t${p}      Author${m} : ${p}Profesor Acc "
-		echo -e "\t${p}      Team${m}   : ${p}QOBIL IS THE FIRST KILLER "       
-		echo -e "\t${p}      Support${m}: ${p}JEPARA WEDDOS CYBER "
+		echo -e "\t${p}              Author${m}: ${p}Profesor Acc "
+		echo -e "\t${p}            QOBIL IS THE FIRST KILLER"       
+		echo -e "\t${p}               JEPARA WEDDOS CYBER "
 		echo -e "\t${p}____________________________________________________"
 	   	
 }
