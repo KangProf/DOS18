@@ -7,8 +7,8 @@ clear
 function banner(){
 		echo -e "\t${p}____________________________________________________"
 		echo -e "\t${h}              TOOLS CHECK IP PROXY"
-		echo -e "\t${p}      Author ${m}: ${p}Profesor Acc "
-		echo -e "\t${p}      Team   ${m}: ${p}QOBIL IS THE FIRST KILLER "       
+		echo -e "\t${p}      Author${m} : ${p}Profesor Acc "
+		echo -e "\t${p}      Team${m}   : ${p}QOBIL IS THE FIRST KILLER "       
 		echo -e "\t${p}      Support${m}: ${p}JEPARA WEDDOS CYBER "
 		echo -e "\t${p}____________________________________________________"
 	   	
@@ -16,7 +16,7 @@ function banner(){
 banner
 
 function sec(){
-		printf "\t\b${p} [${h}•${p}] Memproses Proxy${m}:    ${p}"
+		printf "\t\b${p} [${h}â€¢${p}] Memproses Proxy${m}:    ${p}"
 			for w in {3..0};do
 			get=$(printf "\b${w}")
 		printf "\b\b\b((${h}${get}${p})"
@@ -24,7 +24,7 @@ function sec(){
 		done
 }
 
-printf "\t${p}[${h}•${p}] IP PROXY${m}: ${p}"
+printf "\t${p}[${h}â€¢${p}] IP PROXY${m}: ${p}"
 read proxy;
 
 	if \
@@ -46,7 +46,7 @@ read proxy;
 	-e 's/"//g' \
 	| \
 	awk \
-	{'print "\033[39;1m[\033[32;1m•\033[39;1m]Proxy\033[31;1m: \033[32;1m" $1,$2'})
+	{'print "\033[39;1m[\033[32;1mâ€¢\033[39;1m]Proxy\033[31;1m: \033[32;1m" $1,$2'})
 	port=$(echo \
 	$json \
 	| \
@@ -54,7 +54,7 @@ read proxy;
 	".data | .[] | .port" \
 	| \
 	awk \
-	{'print "\033[39;1m[\033[32;1m•\033[39;1m]Port\033[31;1m: \033[32;1m" $1,$2'})
+	{'print "\033[39;1m[\033[32;1mâ€¢\033[39;1m]Port\033[31;1m: \033[32;1m" $1,$2'})
 	data=$(echo \
 	$json \
 	| \
@@ -69,7 +69,7 @@ read proxy;
 	"\\" \
 	-f1 | \
 	awk \
-	{'print "\033[39;1m[\033[32;1m•\033[39;1m]Status\033[31;1m: \033[32;1m" $1,$2'})
+	{'print "\033[39;1m[\033[32;1mâ€¢\033[39;1m]Status\033[31;1m: \033[32;1m" $1,$2'})
 	server=$(echo \
 	$json \
 	| \
@@ -81,7 +81,7 @@ read proxy;
 	's/"//g' \
 	| \
 	awk \
-	{'print "\033[39;1m[\033[32;1m•\033[39;1m]Server\033[31;1m: \033[32;1m" $1,$2'})
+	{'print "\033[39;1m[\033[32;1mâ€¢\033[39;1m]Server\033[31;1m: \033[32;1m" $1,$2'})
 	product=$(echo \
 	$json \
 	| \
@@ -102,7 +102,7 @@ read proxy;
 	's/"//g' \
 	| \
 	awk \
-	{'print "\033[39;1m[\033[32;1m•\033[39;1m]ASN\033[31;1m: \033[32;1m" $1,$2'})
+	{'print "\033[39;1m[\033[32;1mâ€¢\033[39;1m]ASN\033[31;1m: \033[32;1m" $1,$2'})
 	transport=$(echo \
 	$json \
 	| \
@@ -124,7 +124,7 @@ read proxy;
 	's/"//g' \
 	| \
 	awk \
-	{'print "\033[39;1m[\033[32;1m•\033[39;1m]ISP\033[31;1m: \033[32;1m" $1,$2'})
+	{'print "\033[39;1m[\033[32;1mâ€¢\033[39;1m]ISP\033[31;1m: \033[32;1m" $1,$2'})
 	total_data=$(echo \
 	$json \
 	| \
