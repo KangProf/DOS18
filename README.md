@@ -1,5 +1,5 @@
 # DOS18
-DOS18 adalah tools ddos fungsinya untuk membanjiri website sehingga itu tidak bisa di akses/DOWN
+DOS18 adalah tools ddos yang terbuat dari perl, fungsinya untuk membanjiri website sehingga itu tidak bisa di akses/DOWN
 
 # Cara Menggunakan
 
