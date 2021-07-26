@@ -1,3 +1,5 @@
+#ngapain harus di recode?
+#tinggal pake apa susahnya?
 #!/usr/bin/perl
 #==============INFO==============#
 # TOOLS : DoS ATTACK 18+
