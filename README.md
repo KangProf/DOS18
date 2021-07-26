@@ -18,3 +18,10 @@ $ cd DOS18
 $ ls
 
 $ perl DoS18.pl
+
+# Perhatian!!
+
+Ini adalah script ddos 18+, jadi kalau mau menjalankannya harus umur 17 keatas
+
+Sekian.
+
